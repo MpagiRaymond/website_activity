@@ -47,3 +47,17 @@ form label{
 h1{
     text-align: center;
 }
+.dflex{
+    display: flex;
+    flex-direction: column
+}
+.drow{
+    flex-direction: row;
+}
+.pass{
+    width: 100%;
+}
+/* not working well  */
+.pass > input{
+    width: 500px;
+}
